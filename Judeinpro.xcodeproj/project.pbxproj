@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9139CC61C2F173E005E59BC /* fechasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CC51C2F173E005E59BC /* fechasViewController.swift */; };
+		A9139CC81C2F53FB005E59BC /* judeinpro.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A9139CC71C2F53FB005E59BC /* judeinpro.sqlite */; };
+		A953779A1C34C009002942BE /* fechasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95377991C34C009002942BE /* fechasTableViewController.swift */; };
+		A964E3F01B4362A900C80E42 /* DiscipTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A964E3EF1B4362A900C80E42 /* DiscipTableViewController.swift */; };
+		A964E3F21B43645800C80E42 /* DiscipTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A964E3F11B43645800C80E42 /* DiscipTableViewCell.swift */; };
+		A97293B61B4A28010081F610 /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97293B51B4A28010081F610 /* DetalleViewController.swift */; };
+		A97293B81B4A2C780081F610 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97293B71B4A2C780081F610 /* CustomTableViewCell.swift */; };
+		A97FB8D91B43851C00E014D2 /* DiscipLugarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97FB8D81B43851C00E014D2 /* DiscipLugarViewController.swift */; };
+		A97FB8DB1B4387BA00E014D2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97FB8DA1B4387BA00E014D2 /* CoreLocation.framework */; };
+		A97FB8DF1B43965B00E014D2 /* ParticTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97FB8DE1B43965B00E014D2 /* ParticTableViewController.swift */; };
+		A97FB8E11B43994800E014D2 /* ParticTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97FB8E01B43994800E014D2 /* ParticTableViewCell.swift */; };
+		A981B1871BCCB72C00A32D6D /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A981B1861BCCB72C00A32D6D /* libsqlite3.0.tbd */; };
+		A98DEADC1B2BE07C009CE0D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98DEADB1B2BE07C009CE0D5 /* AppDelegate.swift */; };
+		A98DEADE1B2BE07C009CE0D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98DEADD1B2BE07C009CE0D5 /* ViewController.swift */; };
+		A98DEAE11B2BE07C009CE0D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98DEADF1B2BE07C009CE0D5 /* Main.storyboard */; };
+		A98DEAE31B2BE07C009CE0D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98DEAE21B2BE07C009CE0D5 /* Images.xcassets */; };
+		A98DEAE61B2BE07C009CE0D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A98DEAE41B2BE07C009CE0D5 /* LaunchScreen.xib */; };
+		A98DEAF21B2BE07C009CE0D5 /* JudeinproTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98DEAF11B2BE07C009CE0D5 /* JudeinproTests.swift */; };
+		A9AF1A821B442A63007E5356 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AF1A811B442A63007E5356 /* PickerViewController.swift */; };
+		A9C882361B2D106800DD1457 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C882351B2D106800DD1457 /* MapKit.framework */; };
+		A9C8823A1B2D118300DD1457 /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C882391B2D118300DD1457 /* DataBase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A98DEAEC1B2BE07C009CE0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A98DEACE1B2BE07C009CE0D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A98DEAD51B2BE07C009CE0D5;
+			remoteInfo = Judeinpro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9139CC51C2F173E005E59BC /* fechasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = fechasViewController.swift; path = ../fechasViewController.swift; sourceTree = "<group>"; };
+		A9139CC71C2F53FB005E59BC /* judeinpro.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = judeinpro.sqlite; sourceTree = "<group>"; };
+		A95377991C34C009002942BE /* fechasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fechasTableViewController.swift; sourceTree = "<group>"; };
+		A964E3EF1B4362A900C80E42 /* DiscipTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscipTableViewController.swift; sourceTree = "<group>"; };
+		A964E3F11B43645800C80E42 /* DiscipTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscipTableViewCell.swift; sourceTree = "<group>"; };
+		A97293B51B4A28010081F610 /* DetalleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
+		A97293B71B4A2C780081F610 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		A97FB8D81B43851C00E014D2 /* DiscipLugarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscipLugarViewController.swift; sourceTree = "<group>"; };
+		A97FB8DA1B4387BA00E014D2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A97FB8DE1B43965B00E014D2 /* ParticTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticTableViewController.swift; sourceTree = "<group>"; };
+		A97FB8E01B43994800E014D2 /* ParticTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticTableViewCell.swift; sourceTree = "<group>"; };
+		A981B1861BCCB72C00A32D6D /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		A98DEAD61B2BE07C009CE0D5 /* Judeinpro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Judeinpro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98DEADA1B2BE07C009CE0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98DEADB1B2BE07C009CE0D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A98DEADD1B2BE07C009CE0D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A98DEAE01B2BE07C009CE0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A98DEAE21B2BE07C009CE0D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A98DEAE51B2BE07C009CE0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A98DEAEB1B2BE07C009CE0D5 /* JudeinproTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JudeinproTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98DEAF01B2BE07C009CE0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98DEAF11B2BE07C009CE0D5 /* JudeinproTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudeinproTests.swift; sourceTree = "<group>"; };
+		A9AF1A811B442A63007E5356 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		A9C882351B2D106800DD1457 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A9C882371B2D117100DD1457 /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		A9C882381B2D118200DD1457 /* Judeinpro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Judeinpro-Bridging-Header.h"; sourceTree = "<group>"; };
+		A9C882391B2D118300DD1457 /* DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A98DEAD31B2BE07C009CE0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A981B1871BCCB72C00A32D6D /* libsqlite3.0.tbd in Frameworks */,
+				A97FB8DB1B4387BA00E014D2 /* CoreLocation.framework in Frameworks */,
+				A9C882361B2D106800DD1457 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98DEAE81B2BE07C009CE0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A97293B91B4A31C10081F610 /* Participantes */ = {
+			isa = PBXGroup;
+			children = (
+				A97293B71B4A2C780081F610 /* CustomTableViewCell.swift */,
+				A97293B51B4A28010081F610 /* DetalleViewController.swift */,
+				A97FB8E01B43994800E014D2 /* ParticTableViewCell.swift */,
+				A9AF1A811B442A63007E5356 /* PickerViewController.swift */,
+				A97FB8DE1B43965B00E014D2 /* ParticTableViewController.swift */,
+			);
+			name = Participantes;
+			sourceTree = "<group>";
+		};
+		A97FB8DC1B43952E00E014D2 /* Disciplinas */ = {
+			isa = PBXGroup;
+			children = (
+				A964E3EF1B4362A900C80E42 /* DiscipTableViewController.swift */,
+				A97FB8D81B43851C00E014D2 /* DiscipLugarViewController.swift */,
+				A964E3F11B43645800C80E42 /* DiscipTableViewCell.swift */,
+			);
+			name = Disciplinas;
+			sourceTree = "<group>";
+		};
+		A97FB8DD1B43954D00E014D2 /* Calendario */ = {
+			isa = PBXGroup;
+			children = (
+				A98DEADD1B2BE07C009CE0D5 /* ViewController.swift */,
+				A9139CC51C2F173E005E59BC /* fechasViewController.swift */,
+				A95377991C34C009002942BE /* fechasTableViewController.swift */,
+			);
+			name = Calendario;
+			sourceTree = "<group>";
+		};
+		A98DEACD1B2BE07C009CE0D5 = {
+			isa = PBXGroup;
+			children = (
+				A981B1861BCCB72C00A32D6D /* libsqlite3.0.tbd */,
+				A97FB8DA1B4387BA00E014D2 /* CoreLocation.framework */,
+				A9C882351B2D106800DD1457 /* MapKit.framework */,
+				A98DEAD81B2BE07C009CE0D5 /* Judeinpro */,
+				A98DEAEE1B2BE07C009CE0D5 /* JudeinproTests */,
+				A98DEAD71B2BE07C009CE0D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A98DEAD71B2BE07C009CE0D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A98DEAD61B2BE07C009CE0D5 /* Judeinpro.app */,
+				A98DEAEB1B2BE07C009CE0D5 /* JudeinproTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A98DEAD81B2BE07C009CE0D5 /* Judeinpro */ = {
+			isa = PBXGroup;
+			children = (
+				A9139CC71C2F53FB005E59BC /* judeinpro.sqlite */,
+				A98DEADB1B2BE07C009CE0D5 /* AppDelegate.swift */,
+				A98DEADF1B2BE07C009CE0D5 /* Main.storyboard */,
+				A97293B91B4A31C10081F610 /* Participantes */,
+				A9C8823B1B2D119800DD1457 /* DAO */,
+				A97FB8DD1B43954D00E014D2 /* Calendario */,
+				A97FB8DC1B43952E00E014D2 /* Disciplinas */,
+				A98DEAE21B2BE07C009CE0D5 /* Images.xcassets */,
+				A98DEAE41B2BE07C009CE0D5 /* LaunchScreen.xib */,
+				A98DEAD91B2BE07C009CE0D5 /* Supporting Files */,
+			);
+			path = Judeinpro;
+			sourceTree = "<group>";
+		};
+		A98DEAD91B2BE07C009CE0D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A98DEADA1B2BE07C009CE0D5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A98DEAEE1B2BE07C009CE0D5 /* JudeinproTests */ = {
+			isa = PBXGroup;
+			children = (
+				A98DEAF11B2BE07C009CE0D5 /* JudeinproTests.swift */,
+				A98DEAEF1B2BE07C009CE0D5 /* Supporting Files */,
+			);
+			path = JudeinproTests;
+			sourceTree = "<group>";
+		};
+		A98DEAEF1B2BE07C009CE0D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A98DEAF01B2BE07C009CE0D5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9C8823B1B2D119800DD1457 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				A9C882371B2D117100DD1457 /* DataBase.h */,
+				A9C882391B2D118300DD1457 /* DataBase.m */,
+				A9C882381B2D118200DD1457 /* Judeinpro-Bridging-Header.h */,
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A98DEAD51B2BE07C009CE0D5 /* Judeinpro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98DEAF51B2BE07C009CE0D5 /* Build configuration list for PBXNativeTarget "Judeinpro" */;
+			buildPhases = (
+				A98DEAD21B2BE07C009CE0D5 /* Sources */,
+				A98DEAD31B2BE07C009CE0D5 /* Frameworks */,
+				A98DEAD41B2BE07C009CE0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Judeinpro;
+			productName = Judeinpro;
+			productReference = A98DEAD61B2BE07C009CE0D5 /* Judeinpro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A98DEAEA1B2BE07C009CE0D5 /* JudeinproTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98DEAF81B2BE07C009CE0D5 /* Build configuration list for PBXNativeTarget "JudeinproTests" */;
+			buildPhases = (
+				A98DEAE71B2BE07C009CE0D5 /* Sources */,
+				A98DEAE81B2BE07C009CE0D5 /* Frameworks */,
+				A98DEAE91B2BE07C009CE0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A98DEAED1B2BE07C009CE0D5 /* PBXTargetDependency */,
+			);
+			name = JudeinproTests;
+			productName = JudeinproTests;
+			productReference = A98DEAEB1B2BE07C009CE0D5 /* JudeinproTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A98DEACE1B2BE07C009CE0D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Adrian Camacho Soriano acaso";
+				TargetAttributes = {
+					A98DEAD51B2BE07C009CE0D5 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = GTUK5Y79U3;
+					};
+					A98DEAEA1B2BE07C009CE0D5 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = A98DEAD51B2BE07C009CE0D5;
+					};
+				};
+			};
+			buildConfigurationList = A98DEAD11B2BE07C009CE0D5 /* Build configuration list for PBXProject "Judeinpro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A98DEACD1B2BE07C009CE0D5;
+			productRefGroup = A98DEAD71B2BE07C009CE0D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A98DEAD51B2BE07C009CE0D5 /* Judeinpro */,
+				A98DEAEA1B2BE07C009CE0D5 /* JudeinproTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A98DEAD41B2BE07C009CE0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9139CC81C2F53FB005E59BC /* judeinpro.sqlite in Resources */,
+				A98DEAE11B2BE07C009CE0D5 /* Main.storyboard in Resources */,
+				A98DEAE61B2BE07C009CE0D5 /* LaunchScreen.xib in Resources */,
+				A98DEAE31B2BE07C009CE0D5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98DEAE91B2BE07C009CE0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A98DEAD21B2BE07C009CE0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97FB8D91B43851C00E014D2 /* DiscipLugarViewController.swift in Sources */,
+				A98DEADE1B2BE07C009CE0D5 /* ViewController.swift in Sources */,
+				A97293B81B4A2C780081F610 /* CustomTableViewCell.swift in Sources */,
+				A97FB8E11B43994800E014D2 /* ParticTableViewCell.swift in Sources */,
+				A9AF1A821B442A63007E5356 /* PickerViewController.swift in Sources */,
+				A964E3F01B4362A900C80E42 /* DiscipTableViewController.swift in Sources */,
+				A953779A1C34C009002942BE /* fechasTableViewController.swift in Sources */,
+				A9139CC61C2F173E005E59BC /* fechasViewController.swift in Sources */,
+				A98DEADC1B2BE07C009CE0D5 /* AppDelegate.swift in Sources */,
+				A97293B61B4A28010081F610 /* DetalleViewController.swift in Sources */,
+				A9C8823A1B2D118300DD1457 /* DataBase.m in Sources */,
+				A964E3F21B43645800C80E42 /* DiscipTableViewCell.swift in Sources */,
+				A97FB8DF1B43965B00E014D2 /* ParticTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98DEAE71B2BE07C009CE0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98DEAF21B2BE07C009CE0D5 /* JudeinproTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A98DEAED1B2BE07C009CE0D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A98DEAD51B2BE07C009CE0D5 /* Judeinpro */;
+			targetProxy = A98DEAEC1B2BE07C009CE0D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A98DEADF1B2BE07C009CE0D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98DEAE01B2BE07C009CE0D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A98DEAE41B2BE07C009CE0D5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98DEAE51B2BE07C009CE0D5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A98DEAF31B2BE07C009CE0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A98DEAF41B2BE07C009CE0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A98DEAF61B2BE07C009CE0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Judeinpro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acaso.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Judeinpro/Judeinpro-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A98DEAF71B2BE07C009CE0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Judeinpro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acaso.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Judeinpro/Judeinpro-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		A98DEAF91B2BE07C009CE0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JudeinproTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acaso.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Judeinpro.app/Judeinpro";
+			};
+			name = Debug;
+		};
+		A98DEAFA1B2BE07C009CE0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = JudeinproTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acaso.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Judeinpro.app/Judeinpro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A98DEAD11B2BE07C009CE0D5 /* Build configuration list for PBXProject "Judeinpro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98DEAF31B2BE07C009CE0D5 /* Debug */,
+				A98DEAF41B2BE07C009CE0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98DEAF51B2BE07C009CE0D5 /* Build configuration list for PBXNativeTarget "Judeinpro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98DEAF61B2BE07C009CE0D5 /* Debug */,
+				A98DEAF71B2BE07C009CE0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98DEAF81B2BE07C009CE0D5 /* Build configuration list for PBXNativeTarget "JudeinproTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98DEAF91B2BE07C009CE0D5 /* Debug */,
+				A98DEAFA1B2BE07C009CE0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A98DEACE1B2BE07C009CE0D5 /* Project object */;
+}
