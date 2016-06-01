@@ -12,7 +12,7 @@ class PickerViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     
     var datoRecibido:String!
     
-    var listaDepor = ["GOLPE","CANASTA","FRONTON","SAPO VARONES","SAPO DAMAS","AJEDREZ","FULBITO","TENIS CAMPO DAMAS","TENIS CAMPO VARONES","BOWLING DAMAS","BOWLING VARONES","BILLAR","TENIS DE MESA","NATACION","CARRERA","TIRO","CUENTO","POESIA","FOTOGRAFIA"]
+    var listaDepor = ["GOLPE","CANASTA","FRONTON","SAPO VARONES","SAPO DAMAS","AJEDREZ","FULBITO","TENIS CAMPO DAMAS","TENIS CAMPO VARONES","BOWLING DAMAS","BOWLING VARONES","BILLAR","TENIS DE MESA","NATACION","CARRERA","TIRO","BADMINTON","CUBILETE","CUENTO","POESIA","FOTOGRAFIA"]
     
     @IBOutlet weak var contenedorPromo: UILabel!
 
@@ -39,14 +39,12 @@ class PickerViewController: UIViewController, UIPickerViewDelegate, UIPickerView
     
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
         return 1
-        
     }
     
     // numero de filas se baja de UIPickerViewdataSource
     
     func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int{
         return listaDepor.count
-        
     }
     
     //titulo del picker se baja de UIPickerViewDelegate
@@ -92,7 +90,6 @@ class PickerViewController: UIViewController, UIPickerViewDelegate, UIPickerView
 
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         navigationItem.title = ""
         let vistadetalle = segue.destinationViewController as! DetalleViewController

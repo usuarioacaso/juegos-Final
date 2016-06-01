@@ -54,7 +54,6 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1955 and promociones.ajedrez = eventos.codeven")
             }
             if data1 == "FULBITO" {
-                
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1955 and promociones.fulbito = eventos.codeven")
             }
             if data1 == "TENIS CAMPO DAMAS" {
@@ -83,6 +82,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             }
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1955 and promociones.tiro = eventos.codeven")
+            }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1955 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1955 and promociones.cubilete = eventos.codeven")
             }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1955 and promociones.cuento = eventos.codeven")
@@ -115,7 +120,6 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1954 and promociones.ajedrez = eventos.codeven")
             }
             if data1 == "FULBITO" {
-                
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1954 and promociones.fulbito = eventos.codeven")
             }
             if data1 == "TENIS CAMPO DAMAS" {
@@ -144,6 +148,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             }
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1954 and promociones.tiro = eventos.codeven")
+            }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1954 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1954 and promociones.cubilete = eventos.codeven")
             }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1954 and promociones.cuento = eventos.codeven")
@@ -204,6 +214,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1959 and promociones.tiro = eventos.codeven")
             }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1959 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1959 and promociones.cubilete = eventos.codeven")
+            }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1959 and promociones.cuento = eventos.codeven")
             }
@@ -263,6 +279,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1960 and promociones.tiro = eventos.codeven")
             }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1960 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1960 and promociones.cubilete = eventos.codeven")
+            }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1960 and promociones.cuento = eventos.codeven")
             }
@@ -320,8 +342,13 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1961 and promociones.carrera = eventos.codeven")
             }
             if data1 == "TIRO" {
-                
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1961 and promociones.tiro = eventos.codeven")
+            }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1961 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1961 and promociones.cubilete = eventos.codeven")
             }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1961 and promociones.cuento = eventos.codeven")
@@ -381,6 +408,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             }
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1962 and promociones.tiro = eventos.codeven")
+            }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1962 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1962 and promociones.cubilete = eventos.codeven")
             }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1962 and promociones.cuento = eventos.codeven")
@@ -444,6 +477,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1963 and promociones.cuento = eventos.codeven")
             }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1963 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1963 and promociones.cubilete = eventos.codeven")
+            }
             if data1 == "POESIA" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1963 and promociones.poesia = eventos.codeven")
             }
@@ -499,6 +538,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             }
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1964 and promociones.tiro = eventos.codeven")
+            }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1964 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1964 and promociones.cubilete = eventos.codeven")
             }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1964 and promociones.cuento = eventos.codeven")
@@ -559,6 +604,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1965 and promociones.tiro = eventos.codeven")
             }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1965 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1965 and promociones.cubilete = eventos.codeven")
+            }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1965 and promociones.cuento = eventos.codeven")
             }
@@ -618,6 +669,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1966 and promociones.tiro = eventos.codeven")
             }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1966 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1966 and promociones.cubilete = eventos.codeven")
+            }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1966 and promociones.cuento = eventos.codeven")
             }
@@ -676,6 +733,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             }
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1967 and promociones.tiro = eventos.codeven")
+            }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1967 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1967 and promociones.cubilete = eventos.codeven")
             }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1967 and promociones.cuento = eventos.codeven")
@@ -737,6 +800,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = '1967A' and promociones.tiro = eventos.codeven")
             }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = '1967A' and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = '1967A' and promociones.cubilete = eventos.codeven")
+            }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = '1967A' and promociones.cuento = eventos.codeven")
             }
@@ -796,6 +865,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             }
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1968 and promociones.tiro = eventos.codeven")
+            }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1968 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1968 and promociones.cubilete = eventos.codeven")
             }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1968 and promociones.cuento = eventos.codeven")
@@ -858,6 +933,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1969 and promociones.tiro = eventos.codeven")
             }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1969 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1969 and promociones.cubilete = eventos.codeven")
+            }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1969 and promociones.cuento = eventos.codeven")
             }
@@ -916,6 +997,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             }
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1970 and promociones.tiro = eventos.codeven")
+            }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1970 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1970 and promociones.cubilete = eventos.codeven")
             }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1970 and promociones.cuento = eventos.codeven")
@@ -976,6 +1063,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1971 and promociones.tiro = eventos.codeven")
             }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1971 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1971 and promociones.cubilete = eventos.codeven")
+            }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1971 and promociones.cuento = eventos.codeven")
             }
@@ -1035,6 +1128,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1972 and promociones.tiro = eventos.codeven")
             }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1972 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1972 and promociones.cubilete = eventos.codeven")
+            }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1972 and promociones.cuento = eventos.codeven")
             }
@@ -1093,6 +1192,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             }
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1973 and promociones.tiro = eventos.codeven")
+            }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1973 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1973 and promociones.cubilete = eventos.codeven")
             }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1973 and promociones.cuento = eventos.codeven")
@@ -1154,6 +1259,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1974 and promociones.tiro = eventos.codeven")
             }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1974 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1974 and promociones.cubilete = eventos.codeven")
+            }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1974 and promociones.cuento = eventos.codeven")
             }
@@ -1213,6 +1324,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = '1975A' and promociones.tiro = eventos.codeven")
             }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = '1975A' and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = '1975A' and promociones.cubilete = eventos.codeven")
+            }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = '1975A' and promociones.cuento = eventos.codeven")
             }
@@ -1271,6 +1388,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             }
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = '1975B' and promociones.tiro = eventos.codeven")
+            }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = '1975B' and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = '1975B' and promociones.cubilete = eventos.codeven")
             }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = '1975B' and promociones.cuento = eventos.codeven")
@@ -1332,6 +1455,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1976 and promociones.tiro = eventos.codeven")
             }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1976 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1976 and promociones.cubilete = eventos.codeven")
+            }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1976 and promociones.cuento = eventos.codeven")
             }
@@ -1392,6 +1521,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1977 and promociones.tiro = eventos.codeven")
             }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1977 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1977 and promociones.cubilete = eventos.codeven")
+            }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1977 and promociones.cuento = eventos.codeven")
             }
@@ -1450,6 +1585,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             }
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1978 and promociones.tiro = eventos.codeven")
+            }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1978 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1978 and promociones.cubilete = eventos.codeven")
             }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1978 and promociones.cuento = eventos.codeven")
@@ -1510,6 +1651,12 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
             if data1 == "TIRO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1979 and promociones.tiro = eventos.codeven")
             }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1979 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1979 and promociones.cubilete = eventos.codeven")
+            }
             if data1 == "CUENTO" {
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1979 and promociones.cuento = eventos.codeven")
             }
@@ -1520,11 +1667,76 @@ class DetalleViewController: UIViewController, UITableViewDelegate, UITableViewD
                 datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1979 and promociones.fotografia = eventos.codeven")
             }
         }
+        
+        if data2 == "1980" {
+            if data1 == "GOLPE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.golpe = eventos.codeven")
+            }
+            if data1 == "CANASTA" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.canasta = eventos.codeven")
+            }
+            if data1 == "FRONTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.fronton = eventos.codeven")
+            }
+            if data1 == "SAPO VARONES" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.sapoV = eventos.codeven")
+            }
+            if data1 == "SAPO DAMAS" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.sapoD = eventos.codeven")
+            }
+            if data1 == "AJEDREZ" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.ajedrez = eventos.codeven")
+            }
+            if data1 == "FULBITO" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.fulbito = eventos.codeven")
+            }
+            if data1 == "TENIS CAMPO DAMAS" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.teniscpoD = eventos.codeven")
+            }
+            if data1 == "TENIS CAMPO VARONES" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.teniscpoV = eventos.codeven")
+            }
+            if data1 == "BOWLING DAMAS" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.bowlingD = eventos.codeven")
+            }
+            if data1 == "BOWLING VARONES" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.bowlingV = eventos.codeven")
+            }
+            if data1 == "BILLAR" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.billar = eventos.codeven")
+            }
+            if data1 == "TENIS DE MESA" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.tenisM = eventos.codeven")
+            }
+            if data1 == "NATACION" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.natacion = eventos.codeven")
+            }
+            if data1 == "CARRERA" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.carrera = eventos.codeven")
+            }
+            if data1 == "TIRO" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.tiro = eventos.codeven")
+            }
+            if data1 == "BADMINTON" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.badminton = eventos.codeven")
+            }
+            if data1 == "CUBILETE" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.cubilete = eventos.codeven")
+            }
+            if data1 == "CUENTO" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.cuento = eventos.codeven")
+            }
+            if data1 == "POESIA" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.poesia = eventos.codeven")
+            }
+            if data1 == "FOTOGRAFIA" {
+                datosBD = objDAO.ejecutarSelect("SELECT eventos.match, eventos.fecha,eventos.hora  FROM eventos, promociones WHERE promociones.promo = 1980 and promociones.fotografia = eventos.codeven")
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {

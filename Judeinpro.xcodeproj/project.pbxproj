@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A9139CC61C2F173E005E59BC /* fechasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9139CC51C2F173E005E59BC /* fechasViewController.swift */; };
-		A9139CC81C2F53FB005E59BC /* judeinpro.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A9139CC71C2F53FB005E59BC /* judeinpro.sqlite */; };
 		A953779A1C34C009002942BE /* fechasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95377991C34C009002942BE /* fechasTableViewController.swift */; };
 		A964E3F01B4362A900C80E42 /* DiscipTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A964E3EF1B4362A900C80E42 /* DiscipTableViewController.swift */; };
 		A964E3F21B43645800C80E42 /* DiscipTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A964E3F11B43645800C80E42 /* DiscipTableViewCell.swift */; };
@@ -26,6 +25,7 @@
 		A98DEAE61B2BE07C009CE0D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A98DEAE41B2BE07C009CE0D5 /* LaunchScreen.xib */; };
 		A98DEAF21B2BE07C009CE0D5 /* JudeinproTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98DEAF11B2BE07C009CE0D5 /* JudeinproTests.swift */; };
 		A9AF1A821B442A63007E5356 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AF1A811B442A63007E5356 /* PickerViewController.swift */; };
+		A9BE94071CFD31B800D9B587 /* judeinpro.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A9BE94061CFD31B800D9B587 /* judeinpro.sqlite */; };
 		A9C882361B2D106800DD1457 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C882351B2D106800DD1457 /* MapKit.framework */; };
 		A9C8823A1B2D118300DD1457 /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C882391B2D118300DD1457 /* DataBase.m */; };
 /* End PBXBuildFile section */
@@ -42,7 +42,6 @@
 
 /* Begin PBXFileReference section */
 		A9139CC51C2F173E005E59BC /* fechasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = fechasViewController.swift; path = ../fechasViewController.swift; sourceTree = "<group>"; };
-		A9139CC71C2F53FB005E59BC /* judeinpro.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = judeinpro.sqlite; sourceTree = "<group>"; };
 		A95377991C34C009002942BE /* fechasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fechasTableViewController.swift; sourceTree = "<group>"; };
 		A964E3EF1B4362A900C80E42 /* DiscipTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscipTableViewController.swift; sourceTree = "<group>"; };
 		A964E3F11B43645800C80E42 /* DiscipTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscipTableViewCell.swift; sourceTree = "<group>"; };
@@ -64,6 +63,7 @@
 		A98DEAF01B2BE07C009CE0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A98DEAF11B2BE07C009CE0D5 /* JudeinproTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudeinproTests.swift; sourceTree = "<group>"; };
 		A9AF1A811B442A63007E5356 /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		A9BE94061CFD31B800D9B587 /* judeinpro.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = judeinpro.sqlite; path = Judeinpro/judeinpro.sqlite; sourceTree = "<group>"; };
 		A9C882351B2D106800DD1457 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A9C882371B2D117100DD1457 /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
 		A9C882381B2D118200DD1457 /* Judeinpro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Judeinpro-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -127,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				A981B1861BCCB72C00A32D6D /* libsqlite3.0.tbd */,
+				A9BE94061CFD31B800D9B587 /* judeinpro.sqlite */,
 				A97FB8DA1B4387BA00E014D2 /* CoreLocation.framework */,
 				A9C882351B2D106800DD1457 /* MapKit.framework */,
 				A98DEAD81B2BE07C009CE0D5 /* Judeinpro */,
@@ -147,7 +148,6 @@
 		A98DEAD81B2BE07C009CE0D5 /* Judeinpro */ = {
 			isa = PBXGroup;
 			children = (
-				A9139CC71C2F53FB005E59BC /* judeinpro.sqlite */,
 				A98DEADB1B2BE07C009CE0D5 /* AppDelegate.swift */,
 				A98DEADF1B2BE07C009CE0D5 /* Main.storyboard */,
 				A97293B91B4A31C10081F610 /* Participantes */,
@@ -278,7 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9139CC81C2F53FB005E59BC /* judeinpro.sqlite in Resources */,
+				A9BE94071CFD31B800D9B587 /* judeinpro.sqlite in Resources */,
 				A98DEAE11B2BE07C009CE0D5 /* Main.storyboard in Resources */,
 				A98DEAE61B2BE07C009CE0D5 /* LaunchScreen.xib in Resources */,
 				A98DEAE31B2BE07C009CE0D5 /* Images.xcassets in Resources */,

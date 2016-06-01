@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="je3-rK-CAE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="je3-rK-CAE">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -170,17 +170,17 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNU-cj-gii">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" red="0.81723022460000005" green="0.68791198730000003" blue="0.2999572754" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Los Oficiales del Ejército del Perú, dentro de su sólida preparación profesional, tienen el privilegio de haberse habituado, junto con los ejercicios físicos, a practicar diversas disciplinas deportivas, actitud que en estos eventos adquiere una connotación adicional, pues la combina con el arte y la cultura que también subyace dentro de sí, haciendo de esta mixtura el resultado perfecto que particulariza su nobleza de espíritu.
+                                <mutableString key="text">Los Oficiales del Ejército del Perú, dentro de su sólida preparación profesional, tienen el privilegio de haberse habituado, junto con los ejercicios físicos, a practicar diversas disciplinas deportivas, actitud que en estos eventos adquiere una connotación adicional, pues la combina con el arte y la cultura que también subyace dentro de sí, haciendo de esta mixtura el resultado perfecto que particulariza su nobleza de espíritu.
 Conscientes de la gran importancia de seguir con la práctica deportiva para estrechar y mantener los lazos de amistad y camaradería, como continuación de las vivencias del Servicio Activo, un grupo de entusiastas Oficiales en situación militar de retiro de las Promociones 1951, 1952, 1953 y 1954 efectuaron tres (3) campeonatos de Fulbito durante los años 1988, 1989 y 1990 hasta que a partir de 1991 tuvieron la lucidez de idear la realización anual de los denominados “JUEGOS DEPORTIVOS INTERPROMOCIONES”, gracias a la iniciativa de la Promoción “Crl. RAMÓN AUGUSTO ZAVALA” - 1954.
-A la fecha, la XXVI versión de los Juegos Deportivos y la XXI versión de los Juegos Florales, congrega a veinticuatro Promociones de Oficiales egresados de la Escuela Militar de Chorrillos, hecho que resalta la importancia de la realización de estos eventos, los que ademas de servir de vínculo de integración inter promociones, son un valioso nexo de unión entre las promociones participantes, sus familias y el Ejército del Perú.
+A la fecha, la XXVI versión de los Juegos Deportivos y la XXI versión de los Juegos Florales, congrega a veinticinco Promociones de Oficiales egresados de la Escuela Militar de Chorrillos, hecho que resalta la importancia de la realización de estos eventos, los que ademas de servir de vínculo de integración inter promociones, son un valioso nexo de unión entre las promociones participantes, sus familias y el Ejército del Perú.
 Este aplicativo desarrollado gracias a la iniciativa de la promoción “Crl MANUEL FRANCISCO CHOCANO SOTO” - 1973 organizadora de los juegos del 2016, tiene por objeto facilitar al usuario la ubicación donde se desarrollaran las diferentes competencias, las disciplinas en las que participa su promoción y el fixture de cada una.
 Sus comentarios serán bien recibidos.
 
-Derechos Reservados @ 2015 - 2016
+Derechos Reservados @ 2016 - 2017
 
 
 
-</string>
+</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
